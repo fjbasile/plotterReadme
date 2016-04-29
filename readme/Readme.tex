@@ -1,14 +1,18 @@
 \documentclass{article}[12 pt]
+
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage{tocloft}
 \usepackage{lipsum}
 \usepackage{sidecap}
+
+
 \renewcommand\cftsecfont{\normalfont}
 \renewcommand\cftsecpagefont{\normalfont}
 \renewcommand{\cftsecleader}{\cftdotfill{\cftsecdotsep}}
 \renewcommand\cftsecdotsep{\cftdot}
 \renewcommand\cftsubsecdotsep{\cftdot}
+
 \usepackage{graphicx}
 \usepackage{hyperref,xcolor}
 
@@ -41,13 +45,13 @@
 	\section{How To}
 		\subsection{Initial Startup}
 		When the program initially starts, the grapher is in Cartesian 2D mode and the function $sin(x)$ is displayed.:
-			\begin{figure}[h!]
+			\begin{figure}[htb!]
  				\centering
- 				\includegraphics[scale = .90]{startupScreen}
+ 				\includegraphics[scale = .80]{startupScreen}
  				\caption{The startup screen: $sin(x)$ is displayed}
  			\end{figure}
-			
-		\subsection{Basic 2D Navigation}
+
+		\subsection{Basic 2D Cartesian Navigation}
 		User interactions with the Math Grapher application take place by clicking on the appropriate buttons and menu bar items. The items in the 2D Cartesian window are shown in Figure 2.  Though Polar 2D is not shown, the layout is almost identical. 
 			\begin{figure}[h!] 
 				\centering
@@ -91,6 +95,34 @@
 			The Menu Bar (8) provides the user with the ability to perform some of the same functions as the clickable buttons. The "Do" Menu allows the user to redraw the function, bring up the integral window, and show or hide the derivative of the displayed function. The ``Visualization" menu allows the user to view the graph in Cartesian 2D, Polar 2D or Cartesian 3D modes. The "Colors" menu gives the option for the user to change the color of the interface, and the ``Save" menu offers the opportunity to save the displayed image or export the data to a file. 
  	
 			\subsubsection{Displayed Function}
-			The Displayed Function field is perhaps one of the most important 
- 				
+			The Displayed Function (9) is perhaps one of the most important parts of the entire program. It is here where the user will enter functions to be calculated, and displayed in the graph viewing window (10). The engine behind the displayed functions can take in most single-variable functions including trigonometric functions. However, multiplication is not implicitly undertood. For example, common mathematical notation will use the form $ax$ to represent ``a times x.''Math Grapher requires that all multiplication is explicitly stated. Thus, $ax$ should be represented as ``a*x''. \\
+			
+			Another error some may make is not wrapping the variable of trigonometric functions in parentheses. Math Grapher requires that the variable be wrapped in parentheses such as: $sin(x)$ instead of $sinx$. If the displayed function is incorrectly entered, the user will receive a warning that there was an error parsing the function, and they are subsequently referred to this readme file.
+			
+			\subsubsection{Graph Viewing Window}
+			The Graph Viewing Window (10) displays the input function entered in the ``Displayed Function'' field (9). In 2D mode, it houses an x and y axis in increments of 1. When the viewing windows is zoomed in, the increments are divided in half with each ``zoom in click'' and doubled with each ``zoom out click.''
+			
+			\subsubsection{Arrow Usage}
+			The arrow keys can be used to scroll the graph viewing window (10) in the corresponding direction of the key value. 
+			
+	\subsection{Polar 2D Mode}
+		One of the features of Math Grapher is the ability to view displayed functions in Cartesian 2D, Polar 2D, or Cartesian 3D modes. Despite the difference in modes, the basic use and interface remains the same as in Cartesian 2D mode. Thus, only the differences will be covered.
+	\pagebreak	
+		\subsubsection{Entering Polar Mode}
+			In order to enter Polar Mode, go to the drop down menu and select ``Visualizations.'' Then select ``Polar 2D.'' 
+				\begin{figure}[h!]
+					\centering
+					\includegraphics[scale = .85]{polar}
+					\caption{Selecting Polar 2D mode from the menu bar}
+				\end{figure}
+				
+			After Polar 2D mode is selected, the window will now be in Polar 2D mode. Notice that this view does not look much different from Cartesian 2D mode. In fact, there are only a few slight changes. The first change is that the example function, $sin(x)$ is now graphed on polar coordinates rather than Cartesian coordinates. The displayed function label has been changed to represent r(theta), and the range has also been changed to represent a range from ``Theta 1'' to ``Theta 2.'' Also removed are the abilities to calculate definite integrals and view the derivative of the functions.
+				\begin{figure}[h!]
+				 \centering
+				 \includegraphics[scale=.70]{polarMode}
+				 \caption{Changes in Polar 2D Mode circled in red. Notice that $sin(x)$ is graphed as a polar function}
+				\end{figure}
+
+	\subsection{Cartesian 3D Mode}
+		Cartesian 3D Mode has the capability of viewing functions of two variables in a 3-Dimensional setting. 	
 \end {document}

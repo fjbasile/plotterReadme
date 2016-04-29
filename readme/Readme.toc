@@ -4,7 +4,7 @@
 \contentsline {section}{\numberline {3}Starting the Program}{2}{section.3}
 \contentsline {section}{\numberline {4}How To}{2}{section.4}
 \contentsline {subsection}{\numberline {4.1}Initial Startup}{2}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Basic 2D Navigation}{3}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.2}Basic 2D Cartesian Navigation}{3}{subsection.4.2}
 \contentsline {subsubsection}{\numberline {4.2.1}Draw Button}{3}{subsubsection.4.2.1}
 \contentsline {subsubsection}{\numberline {4.2.2}Zoom In Function}{3}{subsubsection.4.2.2}
 \contentsline {subsubsection}{\numberline {4.2.3}Zoom Out Function}{4}{subsubsection.4.2.3}
@@ -14,3 +14,8 @@
 \contentsline {subsubsection}{\numberline {4.2.7}Range Changes}{5}{subsubsection.4.2.7}
 \contentsline {subsubsection}{\numberline {4.2.8}Menu Bar}{5}{subsubsection.4.2.8}
 \contentsline {subsubsection}{\numberline {4.2.9}Displayed Function}{5}{subsubsection.4.2.9}
+\contentsline {subsubsection}{\numberline {4.2.10}Graph Viewing Window}{6}{subsubsection.4.2.10}
+\contentsline {subsubsection}{\numberline {4.2.11}Arrow Usage}{6}{subsubsection.4.2.11}
+\contentsline {subsection}{\numberline {4.3}Polar 2D Mode}{6}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Entering Polar Mode}{7}{subsubsection.4.3.1}
+\contentsline {subsection}{\numberline {4.4}Cartesian 3D Mode}{8}{subsection.4.4}
