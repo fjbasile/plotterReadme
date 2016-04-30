@@ -3,7 +3,7 @@
 \BOOKMARK [1][-]{section.3}{Starting the Program}{}% 3
 \BOOKMARK [1][-]{section.4}{How To}{}% 4
 \BOOKMARK [2][-]{subsection.4.1}{Initial Startup}{section.4}% 5
-\BOOKMARK [2][-]{subsection.4.2}{Basic 2D Navigation}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.2}{Basic 2D Cartesian Navigation}{section.4}% 6
 \BOOKMARK [3][-]{subsubsection.4.2.1}{Draw Button}{subsection.4.2}% 7
 \BOOKMARK [3][-]{subsubsection.4.2.2}{Zoom In Function}{subsection.4.2}% 8
 \BOOKMARK [3][-]{subsubsection.4.2.3}{Zoom Out Function}{subsection.4.2}% 9
@@ -13,3 +13,10 @@
 \BOOKMARK [3][-]{subsubsection.4.2.7}{Range Changes}{subsection.4.2}% 13
 \BOOKMARK [3][-]{subsubsection.4.2.8}{Menu Bar}{subsection.4.2}% 14
 \BOOKMARK [3][-]{subsubsection.4.2.9}{Displayed Function}{subsection.4.2}% 15
+\BOOKMARK [3][-]{subsubsection.4.2.10}{Graph Viewing Window}{subsection.4.2}% 16
+\BOOKMARK [3][-]{subsubsection.4.2.11}{Arrow Usage}{subsection.4.2}% 17
+\BOOKMARK [2][-]{subsection.4.3}{Polar 2D Mode}{section.4}% 18
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Entering Polar Mode}{subsection.4.3}% 19
+\BOOKMARK [2][-]{subsection.4.4}{Cartesian 3D Mode}{section.4}% 20
+\BOOKMARK [3][-]{subsubsection.4.4.1}{Entering Cartesian 3D Mode}{subsection.4.4}% 21
+\BOOKMARK [3][-]{subsubsection.4.4.2}{3D Navigation}{subsection.4.4}% 22
