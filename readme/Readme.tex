@@ -29,7 +29,7 @@
 \begin {document}
 
 \title{Math Graphics README}
-\author{Frank Basile, Janice Wallace, Daniel Etheridge}
+\author{Frank Basile, Janice Wallace}
 \maketitle
 
 \tableofcontents
@@ -45,17 +45,18 @@
 	\section{How To}
 		\subsection{Initial Startup}
 		When the program initially starts, the grapher is in Cartesian 2D mode and the function $sin(x)$ is displayed.:
-			\begin{figure}[htb!]
+			\begin{figure}[h!]
  				\centering
- 				\includegraphics[scale = .70]{startupScreen}
+ 				\includegraphics[scale = .80]{startupScreen}
  				\caption{The startup screen: $sin(x)$ is displayed}
  			\end{figure}
 
+		\pagebreak
 		\subsection{Basic 2D Cartesian Navigation}
 		User interactions with the Math Grapher application take place by clicking on the appropriate buttons and menu bar items. The items in the 2D Cartesian window are shown in Figure 2.  Though Polar 2D is not shown, the layout is almost identical. 
 			\begin{figure}[h!] 
 				\centering
-				\includegraphics[scale = .35]{Map}
+				\includegraphics[scale = .30]{Map}
 				\caption{Navigation items are labeled in red}
 			\end{figure}
  		
@@ -75,17 +76,18 @@
  			The derivative can be displayed by pressing the ``Show DF'' button (5). Alternatively, the derivative can be displayed from the drop down menu (8) by clicking ``Do'' and ``Show DF.'' To hide the derivative simply press the ``No'' DF button (not shown). Or, from the drop down menu, select ``Do'' and ``No DF''.
  				\begin{figure}[h!]
  					\centering
- 					\includegraphics[scale = .85]{showDF}
+ 					\includegraphics[scale = .75]{showDF}
 					\caption{The derivative drawn after ``Show DF'' selected}
  				\end{figure}	
 			
+			\pagebreak
 			\subsubsection{Integral Calculations}
 			Definite integral calculations can be performed by pressing the ``Integral" button (6). After pressing the integral button, a new window will appear.
 				\begin{figure}[h!]
 					\centering
 					\includegraphics[scale=.5]{integral}
 					\caption{Integral pop-up window}
-				\end{figure}\\
+				\end{figure}
 				Once the integral window appears, the default range will be whatever range a and b were set to on the main display. The user has three integral calculations they can choose from: Simpson, Trapezium, and Gauss. Due to the way calculations are performed, there may be slight differences between the three - but usually no more than several thousandths. After a range is entered, and a selection made, the user will hit the recalculate button. In the result field, the newest calculation will appear.
 				
 			\subsubsection{Range Changes}
@@ -107,34 +109,28 @@
 			
 	\subsection{Polar 2D Mode}
 		One of the features of Math Grapher is the ability to view displayed functions in Cartesian 2D, Polar 2D, or Cartesian 3D modes. Despite the difference in modes, the basic use and interface remains the same as in Cartesian 2D mode. Thus, only the differences will be covered.
-	\pagebreak	
+
 		\subsubsection{Entering Polar Mode}
 			In order to enter Polar Mode, go to the drop down menu and select ``Visualizations.'' Then select ``Polar 2D.'' 
 				\begin{figure}[h!]
 					\centering
-					\includegraphics[scale = .85]{polar}
+					\includegraphics[scale = .75]{polar}
 					\caption{Selecting Polar 2D mode from the menu bar}
 				\end{figure}
 				
 			After Polar 2D mode is selected, the window will now be in Polar 2D mode. Notice that this view does not look much different from Cartesian 2D mode. In fact, there are only a few slight changes. The first change is that the example function, $sin(x)$ is now graphed on polar coordinates rather than Cartesian coordinates. The displayed function label has been changed to represent r(theta), and the range has also been changed to represent a range from ``Theta 1'' to ``Theta 2.'' Also removed are the abilities to calculate definite integrals and view the derivative of the functions.
 				\begin{figure}[h!]
-				 \centering
+				\centering
 				 \includegraphics[scale=.70]{polarMode}
 				 \caption{Changes in Polar 2D Mode circled in red. Notice that $sin(x)$ is graphed as a polar function}
 				\end{figure}
-
+				\pagebreak
 	\subsection{Cartesian 3D Mode}
 		Cartesian 3D Mode has the capability of viewing functions of two variables in a 3-Dimensional setting. Inputting functions into the "displayed function" field is the same as both 2D modes with one exception. Because the third dimension, $z$, is dependent on inputs to $x$ and $y$, all functions assume both $x$ and $y$ variables. In the case that $x$ or $y$ are not explicitly defined, such as the case of the function $x^2$ the function is implicitly defined as $x^2 + 0y$. 
 	
 		\subsubsection{Entering Cartesian 3D Mode}
 		Entering Cartesian 3D mode is similar to entering either of the 2D modes. Simply go to the menu bar, click ``Visualizations," and then select ``Cartesian 3D," as shown in Figure 7.
-			\begin{figure}[h!]
-			\centering
-			\includegraphics[scale = .35]{enter3D}
-			\caption{Entering into Cartesian 3D Mode}
-			\end{figure}
-		\pagebreak
-		
+
 		\subsubsection{3D Navigation}
 		The graph viewing window in Cartesian 3D is slightly different in that the 2-Dimensional Grid is no longer present, and has been replaced by a 3-Dimensional axis. Also, the displayed ranges allow for range changes to both the $x$ and $y$ axis. Upon entering the 3D window, whatever function had been previously graphed in either Cartesian 2D or Polar 2D modes will be represented. In this case, we still use the $sin(x)$ function. 
 			\begin{figure}[h!]
@@ -142,8 +138,30 @@
 			\includegraphics[scale=.35]{3DView}
 			\caption{Cartesian 3D with changes to window annotated in red and $sin(x)$ function displayed}
 			\end{figure}
-			
-		\subsubsection{Another Example}
-		Aside from simple 3D graphs such as the graph of $sin(x)$, the 3D mode can graph fairly complex graphics such as 
-			
+
+		\section{User Configuration}
+		\subsection{Changing Colors}
+		Aside from performing complex mathematical functions, Math Grapher also gives the user the option to customize the appearance of the program. In order to do this the user can select the ``Colors'' drop-down menu followed by ``Choose Colors.'' 
+
+		\subsubsection{Color Change Window}
+		After the user has selected the appropriate menu items to change the colors, a pop-up window will appear. The pop-up window will reference a number of different parts of the program that can have the colors customized and changed. In this particular case, the reader can see that the background color of the graph is white, the panel color is gray, the line color of the function to be drawn is a dark blue, the derivative line is red, and the grid axis color is black. Not shown, the 3D rendering is an aquagreen color. Each available color has a respective ``More Colors'' button that, when selected, will open a traditional color palette tool from which the user can select which color they'd like. Once the color is selected, and ``Save'' is selected on the color panel pop-up window, the targeted color element will change. 
+		\begin{figure}[h!]
+		\centering
+		\includegraphics[scale =.70]{ColorPanel}
+		\caption{The color panel window opens}
+		\end{figure}
+				 
+		 \begin{figure}[h!]
+		 \centering
+		 \includegraphics[scale=.70]{colorChooser}
+		 \caption{The palette window opens when the ``More Colors'' button is clicked}
+		 \end{figure}
+		
+		\pagebreak
+		\section{Saving Files}
+		 The output of the Math Grapher program can be sent to a file in two ways: as an image and as character separated values in a text file. 
+		 \subsection{Image Saving}
+		 Saving the image of the graph works in all 2D modes as well as in 3D. In order to save the image of the graph, simply select ``Save'' from the drop down menu followed by the selection of ``Save Image.'' The image must be saved as a jpg file. Thus, even if the user does not input the correct .jpg filename extension, Math Grapher will change the file to a .jpg file. 
+		 \subsection{Save Data to Text File}
+		 Another method to save data from Math Grapher is to output the data to a text file. To do this, select  ``Export Data'' from the drop down menu bar. After which, an export data panel pop-up window will appear. On this panel, when the user chooses ``Browse,'' they're then prompted to save their file. The file can only be saved as a .txt file. Thus, even if the user does not add the filename extension, it will be converted to a .txt file. The user also has the option to select how they'd like each value separated (comma, ampersand, etc...) and how they'd like each data entry separated (usually a new line character). 
 \end {document}
